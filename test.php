@@ -20,3 +20,6 @@
     echo "不正解です";
   }
 ?>
+<?php $input = fgets(STDIN);
+  echo $input * 3;
+?>
